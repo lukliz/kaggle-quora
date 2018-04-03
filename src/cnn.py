@@ -1,5 +1,6 @@
 import tensorflow as tf
 
+a = 10000
 
 class CNN(object):
     def __init__(self, vocab_size, embedding_size, seq_length, filter_sizes, num_filters):
